@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: GRAMPS 4.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-07-07 11:05-0700\n"
-"PO-Revision-Date: 2016-08-29 20:52-0300\n"
+"PO-Revision-Date: 2016-08-31 15:36-0300\n"
 "Last-Translator: Paulo Henrique Paiva de Moraes <paulohpmoraes@gmail.com>\n"
 "Language-Team: \n"
 "Language: pt_BR\n"
@@ -17150,7 +17150,7 @@ msgstr "Indivíduos sem conexão"
 
 #: ../gramps/plugins/gramplet/statsgramplet.py:172 ../gramps/plugins/textreport/summary.py:207
 msgid "Family Information"
-msgstr "Informações da família"
+msgstr "Informações das famílias"
 
 #: ../gramps/plugins/gramplet/statsgramplet.py:174
 msgid "Number of families"
@@ -17166,7 +17166,7 @@ msgstr "Objetos de mídia"
 
 #: ../gramps/plugins/gramplet/statsgramplet.py:184
 msgid "Individuals with media objects"
-msgstr "Indivíduos com objetos multimídia"
+msgstr "Indivíduos com objetos de mídia"
 
 #: ../gramps/plugins/gramplet/statsgramplet.py:188
 msgid "Total number of media object references"
