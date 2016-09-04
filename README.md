@@ -1,26 +1,19 @@
 # Gramps 4.2
-============
 Tradução da versão 4.2 do Gramps para o português brasileiro.
 
 O Gramps é um software livre, gratuito e de código aberto, rico em recursos tanto para o genealogista amador quanto para o profissional. O Gramps é um projeto coletivo, desenvolvido e é mantido por uma comunidade de genealogistas. Ele é disponibilizado nas plataformas Linux, Windows e OS X.
 
 Para saber mais e baixar o programa acesse https://gramps-project.org/
 
-Considerações sobre a tradução
-============
-Local X Lugar
-------------
+## Considerações sobre a tradução
+**Local X Lugar**
 
-Banco de dados X Base de dados
-------------
+**Banco de dados X Base de dados**
 
-Objeto multimídia X Objeto de mídia
-------------
+**Objeto multimídia X Objeto de mídia**
 
-Termos e traduções
-============
-Modos de exibição
-------------
+## Termos e traduções
+### Modos de exibição
 Inglês | Tradução anterior | Tradução atual
 ------ | ----------------- | --------------
 Dashboard | Painel | Painel
@@ -37,9 +30,7 @@ Repositories | Repositórios | Repositórios
 Media | ~~Multimídia~~ | Mídia
 Notes | ~~Notas~~ | Anotações
 
-
-Lugares
-------------
+### Lugares
 Inglês | Tradução anterior | Tradução atual
 ------ | ----------------- | --------------
 Borough |  | Vila
