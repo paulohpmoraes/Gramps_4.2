@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: GRAMPS 4.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-09-01 17:51+0200\n"
-"PO-Revision-Date: 2016-09-04 18:36-0300\n"
+"PO-Revision-Date: 2016-09-06 10:42-0300\n"
 "Last-Translator: Paulo Henrique Paiva de Moraes <paulohpmoraes@gmail.com>\n"
 "Language-Team: \n"
 "Language: pt_BR\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Poedit 1.8.7.1\n"
+"X-Generator: Poedit 1.8.9\n"
 
 #: ../data/gramps.appdata.xml.in.h:1
 msgid "Gramps is a genealogy program that is both intuitive for hobbyists and feature-complete for professional genealogists."
@@ -220,7 +220,7 @@ msgstr "<b>Listando eventos</b><br/>Os eventos são adicionados com o uso do edi
 
 #: ../data/tips.xml.in.h:36
 msgid "<b>Managing Names</b><br/>It is easy to manage people with several names in Gramps. In the Person Editor select the Names tab. You can add names of different types and set the preferred name by dragging it to the Preferred Name section."
-msgstr "<b>Gerenciando nomes</b><br/>É fácil gerenciar pessoas com diversos nomes no Gramps. Selecione a aba Nomes no Editor de Pessoas. Você pode adicionar diferentes tipos de nomes e definir o nome preferido arrastando-o para a seção Nome preferido."
+msgstr "<b>Gerenciando nomes</b><br/>É fácil gerenciar pessoas com diversos nomes no Gramps. Selecione a aba Nomes no Editor de Pessoas. Você pode adicionar diferentes tipos de nomes e definir o nome preferencial arrastando-o para a seção Nome preferencial."
 
 #: ../data/tips.xml.in.h:37
 msgid "<b>Ancestor View</b><br/>The Ancestry View displays a traditional pedigree chart. Hold the mouse over an individual to see more information about them or right click on an individual to access other family members and settings. Play with the settings to see the different options."
@@ -1042,7 +1042,7 @@ msgstr "Sobrenome faltando"
 
 #: ../gramps/gen/config.py:312 ../gramps/gen/config.py:314
 msgid "Living"
-msgstr "Viva"
+msgstr "Vivo"
 
 #: ../gramps/gen/config.py:313
 msgid "Private Record"
@@ -5111,71 +5111,88 @@ msgstr "Solteiro(a)"
 msgid "Married"
 msgstr "Casado(a)"
 
+# Termo SUD
 #: ../gramps/gen/lib/ldsord.py:95
 msgid "Endowment"
-msgstr "Dote"
+msgstr "Investidura"
 
+# Termo SUD
 #: ../gramps/gen/lib/ldsord.py:97
 msgid "Sealed to Parents"
-msgstr "Selado aos Pais"
+msgstr "Selado aos pais"
 
+# Termo SUD
 #: ../gramps/gen/lib/ldsord.py:98
 msgid "Sealed to Spouse"
-msgstr "Selado ao Cônjuge"
+msgstr "Selado ao cônjuge"
 
+# Termo SUD
 #: ../gramps/gen/lib/ldsord.py:102
 msgid "<No Status>"
 msgstr "<Sem status>"
 
+# Termo SUD
 #: ../gramps/gen/lib/ldsord.py:103
 msgid "BIC"
-msgstr "Nascido em Convénio"
+msgstr "Nascido em convênio"
 
+# Termo SUD
 #: ../gramps/gen/lib/ldsord.py:104
 msgid "Canceled"
 msgstr "Cancelado"
 
+# Termo SUD
 #. ----------------------------------
 #: ../gramps/gen/lib/ldsord.py:105 ../gramps/gui/filters/sidebar/_familysidebarfilter.py:114 ../gramps/gui/glade/editchildref.glade:250 ../gramps/gui/merge/mergeperson.py:247 ../gramps/plugins/export/exportcsv.py:515 ../gramps/plugins/gramplet/children.py:81 ../gramps/plugins/gramplet/children.py:181 ../gramps/plugins/importer/importcsv.py:219
 msgid "Child"
 msgstr "Filho"
 
+# Termo SUD
 #: ../gramps/gen/lib/ldsord.py:106
 msgid "Cleared"
 msgstr "Liberado"
 
+# Termo SUD
 #: ../gramps/gen/lib/ldsord.py:107
 msgid "Completed"
 msgstr "Concluído"
 
+# Termo SUD
 #: ../gramps/gen/lib/ldsord.py:108
 msgid "DNS"
 msgstr "DNS"
 
+# Termo SUD
 #: ../gramps/gen/lib/ldsord.py:109
 msgid "Infant"
 msgstr "Bebê"
 
+# Termo SUD
 #: ../gramps/gen/lib/ldsord.py:110
 msgid "Pre-1970"
 msgstr "Antes de 1970"
 
+# Termo SUD
 #: ../gramps/gen/lib/ldsord.py:111
 msgid "Qualified"
 msgstr "Qualificado"
 
+# Termo SUD
 #: ../gramps/gen/lib/ldsord.py:112
 msgid "DNS/CAN"
 msgstr "DNS/CAN"
 
+# Termo SUD
 #: ../gramps/gen/lib/ldsord.py:113
 msgid "Stillborn"
 msgstr "Natimorto"
 
+# Termo SUD
 #: ../gramps/gen/lib/ldsord.py:114
 msgid "Submitted"
 msgstr "Submetido"
 
+# Termo SUD
 #: ../gramps/gen/lib/ldsord.py:115
 msgid "Uncleared"
 msgstr "Não liberado"
@@ -7513,7 +7530,7 @@ msgstr "Calendário nos relatórios"
 
 #: ../gramps/gui/configure.py:1050
 msgid "Surname guessing"
-msgstr "Adivinhação de sobrenomes"
+msgstr "Dedução de sobrenomes"
 
 #: ../gramps/gui/configure.py:1063
 msgid "Default family relationship"
@@ -7625,7 +7642,7 @@ msgstr "Margem para datas \"antes de\""
 
 #: ../gramps/gui/configure.py:1252
 msgid "Maximum age probably alive"
-msgstr "Idade máxima para provavelmente viva"
+msgstr "Idade máxima para provavelmente vivo"
 
 #: ../gramps/gui/configure.py:1255
 msgid "Maximum sibling age difference"
@@ -7709,7 +7726,7 @@ msgstr "Exibir 'Dica do Dia'"
 
 #: ../gramps/gui/configure.py:1334
 msgid "Remember last view displayed"
-msgstr "Lembrar a última visão exibida"
+msgstr "Lembrar a última visualização exibida"
 
 #: ../gramps/gui/configure.py:1339
 msgid "Max generations for relationships"
@@ -8571,7 +8588,7 @@ msgstr "Não"
 
 #: ../gramps/gui/editors/displaytabs/namemodel.py:62
 msgid "Preferred name"
-msgstr "Nome preferido"
+msgstr "Nome preferencial"
 
 #: ../gramps/gui/editors/displaytabs/namemodel.py:64
 msgid "Alternative names"
@@ -9219,29 +9236,35 @@ msgstr "Você tentou utilizar um ID Gramps já existente, com o valor %(id)s. Po
 msgid "Add Family"
 msgstr "Adicionar família"
 
+# Termo SUD
 #: ../gramps/gui/editors/editldsord.py:67
 msgid "manual|LDS_Ordinance_Editor"
 msgstr ""
 
+# Termo SUD
 #: ../gramps/gui/editors/editldsord.py:160 ../gramps/gui/editors/editldsord.py:316 ../gramps/gui/editors/editldsord.py:353 ../gramps/gui/editors/editldsord.py:439
 msgid "LDS Ordinance Editor"
 msgstr "Editor de ordenações SUD"
 
+# Termo SUD
 #: ../gramps/gui/editors/editldsord.py:289
 #, python-format
 msgid "%(father)s and %(mother)s [%(gramps_id)s]"
 msgstr "%(father)s e %(mother)s [%(gramps_id)s]"
 
+# Termo SUD
 #: ../gramps/gui/editors/editldsord.py:295
 #, python-format
 msgid "%(father)s [%(gramps_id)s]"
 msgstr "%(father)s [%(gramps_id)s]"
 
+# Termo SUD
 #: ../gramps/gui/editors/editldsord.py:300
 #, python-format
 msgid "%(mother)s [%(gramps_id)s]"
 msgstr "%(mother)s [%(gramps_id)s]"
 
+# Termo SUD
 #: ../gramps/gui/editors/editldsord.py:315 ../gramps/gui/editors/editldsord.py:438 ../gramps/plugins/textreport/indivcomplete.py:420 ../gramps/plugins/textreport/indivcomplete.py:618 ../gramps/plugins/webreport/narrativeweb.py:788
 msgid "LDS Ordinance"
 msgstr "Ordenações SUD"
@@ -11045,7 +11068,7 @@ msgstr "Um ID único para a pessoa."
 
 #: ../gramps/gui/glade/editperson.glade:709
 msgid "Preferred Name"
-msgstr "Nome Preferido"
+msgstr "Nome preferencial"
 
 #: ../gramps/gui/glade/editpersonref.glade:96
 msgid "_Person:"
@@ -25340,7 +25363,7 @@ msgstr "Ferramenta de Estatística de Gênero"
 
 #: ../gramps/plugins/tool/dumpgenderstats.py:66
 msgid "Guess"
-msgstr "Estimativa"
+msgstr "Dedução"
 
 #: ../gramps/plugins/tool/eventcmp.glade:228
 msgid "_Filter:"
@@ -25910,7 +25933,7 @@ msgstr "Todos os índices secundários foram reconstruídos."
 
 #: ../gramps/plugins/tool/rebuildgenderstat.py:82
 msgid "Rebuilding gender statistics for name gender guessing..."
-msgstr "Reconstruindo as estatísticas de gênero para a adivinhação de gêneros dos nomes..."
+msgstr "Reconstruindo as estatísticas de gênero para a dedução do gênero a partir do nome..."
 
 #: ../gramps/plugins/tool/rebuildgenderstat.py:95
 msgid "Gender statistics rebuilt"
@@ -25918,7 +25941,7 @@ msgstr "Estatísticas de gênero reconstruídas"
 
 #: ../gramps/plugins/tool/rebuildgenderstat.py:96
 msgid "Gender statistics for name gender guessing have been rebuilt."
-msgstr "As estatísticas de gênero para a adivinhação de gênero dos nomes foram reconstruídas."
+msgstr "As estatísticas de gênero para a dedução do gênero a partir do nome foram reconstruídas."
 
 #: ../gramps/plugins/tool/rebuildrefmap.py:78 ../gramps/plugins/tool/rebuildrefmap.py:81
 msgid "Rebuilding reference maps..."
@@ -26330,7 +26353,7 @@ msgstr "Reconstruir estatísticas de gênero"
 
 #: ../gramps/plugins/tool/tools.gpr.py:330
 msgid "Rebuilds gender statistics for name gender guessing..."
-msgstr "Reconstrói as estatísticas de gênero para a adivinhação de gêneros dos nomes..."
+msgstr "Reconstrói as estatísticas de gênero para a dedução do gênero a partir do nome..."
 
 #: ../gramps/plugins/tool/tools.gpr.py:351
 msgid "Relationship Calculator"
